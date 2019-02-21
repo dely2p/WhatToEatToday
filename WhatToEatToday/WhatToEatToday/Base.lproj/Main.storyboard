@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--오늘 뭐 먹지-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="WhatToEatToday" customModuleProvider="target" sceneMemberID="viewController">
@@ -21,7 +21,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 먹지?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0i-gL-36r">
                                 <rect key="frame" x="77" y="128.5" width="221" height="50.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cookie03" translatesAutoresizingMaskIntoConstraints="NO" id="Ukr-tQ-t09">
@@ -61,7 +61,8 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" id="25x-A3-gzW">
+                    <navigationItem key="navigationItem" title="오늘 뭐 먹지" id="25x-A3-gzW">
+                        <barButtonItem key="backBarButtonItem" title="뒤로" id="30F-Hh-rID"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="QQP-1G-f8c">
                             <connections>
                                 <segue destination="WCP-XR-gK4" kind="show" id="PSd-mx-di1"/>
