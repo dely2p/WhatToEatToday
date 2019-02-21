@@ -87,15 +87,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMe-mZ-JOZ">
-                                <rect key="frame" x="137.5" y="303.5" width="100" height="60"/>
-                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Go8-zY-dTw"/>
-                                    <constraint firstAttribute="height" constant="60" id="wCm-am-ZaZ"/>
-                                </constraints>
-                                <state key="normal" title="메뉴 추가"/>
-                            </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="원하는 메뉴를 입력하세요" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="02b-OJ-nRQ">
                                 <rect key="frame" x="50" y="218.5" width="275" height="30"/>
                                 <nil key="textColor"/>
@@ -110,12 +101,13 @@
                             <constraint firstItem="FuM-hV-FGU" firstAttribute="centerX" secondItem="efl-Gy-Peg" secondAttribute="centerX" id="Onr-bQ-BzX"/>
                             <constraint firstItem="02b-OJ-nRQ" firstAttribute="leading" secondItem="xtJ-1X-ELQ" secondAttribute="leading" constant="50" id="iyM-1q-wW2"/>
                             <constraint firstItem="FuM-hV-FGU" firstAttribute="centerY" secondItem="efl-Gy-Peg" secondAttribute="centerY" constant="-170" id="nSt-7x-qX9"/>
-                            <constraint firstItem="QMe-mZ-JOZ" firstAttribute="centerY" secondItem="efl-Gy-Peg" secondAttribute="centerY" id="vOu-G1-eUE"/>
-                            <constraint firstItem="QMe-mZ-JOZ" firstAttribute="centerX" secondItem="efl-Gy-Peg" secondAttribute="centerX" id="vSi-ss-8to"/>
                             <constraint firstItem="02b-OJ-nRQ" firstAttribute="centerX" secondItem="efl-Gy-Peg" secondAttribute="centerX" id="zRd-0M-IUY"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xtJ-1X-ELQ"/>
                     </view>
+                    <connections>
+                        <outlet property="menuTextField" destination="02b-OJ-nRQ" id="eUe-PF-vHL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Mc-Pw-QOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,9 +12,24 @@ import Alamofire
 
 class PostMenuViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var menuTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        menuTextField.delegate = self
     }
-
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        Alamofire.request("http://memolease.ipdisk.co.kr:1337/foods", method: .post, parameters: ["content" : self.menuTextField.text!]).validate().responseJSON { response in
+            switch response.result {
+            case .success(let value):
+                let json = JSON(value)
+                print("JSON: \(json)")
+            case .failure(let error):
+                print(error)
+            }
+        }
+        menuTextField.text = ""
+        return true
+    }
+    
 }
