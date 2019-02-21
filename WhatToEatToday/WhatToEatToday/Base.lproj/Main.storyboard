@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 뭐 먹지?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k0i-gL-36r">
-                                <rect key="frame" x="77" y="108.5" width="221" height="50.5"/>
+                                <rect key="frame" x="77" y="128.5" width="221" height="50.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="42"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,7 +50,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="k0i-gL-36r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="0Ya-J3-EME"/>
+                            <constraint firstItem="k0i-gL-36r" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-180" id="0Ya-J3-EME"/>
                             <constraint firstItem="yjj-Wp-mnv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="F9k-h6-T3b"/>
                             <constraint firstItem="Ukr-tQ-t09" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FCQ-Dj-cG2"/>
                             <constraint firstItem="Ukr-tQ-t09" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Obr-s3-o46"/>
@@ -78,7 +78,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acf-Rq-dw0">
-                                <rect key="frame" x="136" y="108" width="103.5" height="51.5"/>
+                                <rect key="frame" x="136" y="128" width="103.5" height="51.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="43"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -93,7 +93,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Acf-Rq-dw0" firstAttribute="centerY" secondItem="DDV-PA-1iK" secondAttribute="centerY" constant="-200" id="AqH-3m-Iad"/>
+                            <constraint firstItem="Acf-Rq-dw0" firstAttribute="centerY" secondItem="DDV-PA-1iK" secondAttribute="centerY" constant="-180" id="AqH-3m-Iad"/>
                             <constraint firstItem="fFB-h2-PKR" firstAttribute="centerY" secondItem="DDV-PA-1iK" secondAttribute="centerY" id="VVh-hw-hVs"/>
                             <constraint firstItem="Acf-Rq-dw0" firstAttribute="centerX" secondItem="DDV-PA-1iK" secondAttribute="centerX" id="gO8-WL-dku"/>
                             <constraint firstItem="fFB-h2-PKR" firstAttribute="centerX" secondItem="DDV-PA-1iK" secondAttribute="centerX" id="hFN-XH-l10"/>

@@ -27,7 +27,15 @@ class ResultViewController: UIViewController {
                 for item in json.array! {
                     self.arrayList.append(item["content"].stringValue)
                 }
-                self.resultLabel.text = self.arrayList.randomElement()!
+                guard let menuOfRandom = self.arrayList.randomElement() else {
+                    return
+                }
+                self.resultLabel.text = menuOfRandom
+                self.resultImageView.image = UIImage(named: "cookie04")
+                
+                if let image = UIImage(named: "\(menuOfRandom)") {
+                    self.resultImageView.image = image
+                }
                 
             case .failure(let error):
                 print(error)
