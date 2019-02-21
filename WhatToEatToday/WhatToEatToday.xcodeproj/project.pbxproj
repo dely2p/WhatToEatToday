@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A32CB20B221EA2D600970F9D /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CB20A221EA2D600970F9D /* ResultViewController.swift */; };
+		A32CB20D221EC14E00970F9D /* PostMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32CB20C221EC14E00970F9D /* PostMenuViewController.swift */; };
 		A3E48BF6221E8B8B0043E563 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E48BF5221E8B8B0043E563 /* AppDelegate.swift */; };
 		A3E48BF8221E8B8B0043E563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E48BF7221E8B8B0043E563 /* ViewController.swift */; };
 		A3E48BFB221E8B8B0043E563 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E48BF9221E8B8B0043E563 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		62F9759BCA8AB79A4FDD404F /* Pods-WhatToEatToday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToEatToday.debug.xcconfig"; path = "Target Support Files/Pods-WhatToEatToday/Pods-WhatToEatToday.debug.xcconfig"; sourceTree = "<group>"; };
 		80C93F5D992EAD987D7EBC51 /* Pods-WhatToEatToday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatToEatToday.release.xcconfig"; path = "Target Support Files/Pods-WhatToEatToday/Pods-WhatToEatToday.release.xcconfig"; sourceTree = "<group>"; };
 		A32CB20A221EA2D600970F9D /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		A32CB20C221EC14E00970F9D /* PostMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostMenuViewController.swift; sourceTree = "<group>"; };
 		A3E48BF2221E8B8B0043E563 /* WhatToEatToday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatToEatToday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E48BF5221E8B8B0043E563 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3E48BF7221E8B8B0043E563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				A3E48BF5221E8B8B0043E563 /* AppDelegate.swift */,
 				A3E48BF7221E8B8B0043E563 /* ViewController.swift */,
 				A3E48BF9221E8B8B0043E563 /* Main.storyboard */,
+				A32CB20C221EC14E00970F9D /* PostMenuViewController.swift */,
 				A32CB20A221EA2D600970F9D /* ResultViewController.swift */,
 				A3E48BFC221E8B8D0043E563 /* Assets.xcassets */,
 				A3E48BFE221E8B8D0043E563 /* LaunchScreen.storyboard */,
@@ -214,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3E48BF8221E8B8B0043E563 /* ViewController.swift in Sources */,
+				A32CB20D221EC14E00970F9D /* PostMenuViewController.swift in Sources */,
 				A3E48BF6221E8B8B0043E563 /* AppDelegate.swift in Sources */,
 				A32CB20B221EA2D600970F9D /* ResultViewController.swift in Sources */,
 			);
