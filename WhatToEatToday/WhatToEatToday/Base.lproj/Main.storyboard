@@ -68,6 +68,10 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="subTitleLabel" destination="yjj-Wp-mnv" id="65H-ey-WsA"/>
+                        <outlet property="titleLabel" destination="k0i-gL-36r" id="r3q-bb-ytH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -107,11 +111,12 @@
                     </view>
                     <connections>
                         <outlet property="menuTextField" destination="02b-OJ-nRQ" id="eUe-PF-vHL"/>
+                        <outlet property="titleLabel" destination="FuM-hV-FGU" id="3do-5r-9z7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Mc-Pw-QOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1932" y="753"/>
+            <point key="canvasLocation" x="1932" y="752.47376311844084"/>
         </scene>
         <!--Result View Controller-->
         <scene sceneID="WO5-vd-4RC">

@@ -12,10 +12,12 @@ import Alamofire
 
 class PostMenuViewController: UIViewController, UITextFieldDelegate {
 
+    @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var menuTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         menuTextField.delegate = self
+        titleLabel.font = UIFont(name: "locus_sangsang", size: 36)
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {

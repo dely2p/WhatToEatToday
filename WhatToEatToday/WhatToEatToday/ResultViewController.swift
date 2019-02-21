@@ -18,6 +18,7 @@ class ResultViewController: UIViewController {
     var arrayList = Array<String>()
     override func viewDidLoad() {
         super.viewDidLoad()
+        resultLabel.font = UIFont(name: "locus_sangsang", size: 42)
         Alamofire.request("http://memolease.ipdisk.co.kr:1337/foods", method: .get).validate().responseJSON { response in
             switch response.result {
             case .success(let value):

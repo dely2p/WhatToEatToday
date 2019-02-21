@@ -10,9 +10,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subTitleLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        titleLabel.font = UIFont(name: "locus_sangsang", size: 42)
+        subTitleLabel.font = UIFont(name: "locus_sangsang", size: 18)
     }
 
 }
